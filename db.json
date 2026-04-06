@@ -1,14 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Spaghetti alla Carbonara",
+      "ingredients": [
+        "320g di spaghetti",
+        "140g di guanciale",
+        "4 tuorli d'uovo",
+        "40g di pecorino romano",
+        "Pepe nero q.b."
+      ],
+      "instructions": "Rosola il guanciale a dadini in padella senza olio finché diventa croccante. Nel frattempo cuoci la pasta in acqua bollente salata. In una ciotola sbatti i tuorli con il pecorino grattugiato e abbondante pepe nero. Scola la pasta al dente conservando un mestolo di acqua di cottura. Unisci la pasta al guanciale fuori dal fuoco, versa la crema di uova e mescola energicamente aggiungendo acqua di cottura a poco a poco fino a ottenere una salsa cremosa."
+    },
+    {
+      "id": 2,
+      "title": "Spaghetti Cacio e Pepe",
+      "ingredients": [
+        "320g di spaghetti",
+        "120g di pecorino romano",
+        "Pepe nero q.b."
+      ],
+      "instructions": "Cuoci la pasta in acqua poco salata. Macina abbondante pepe nero in padella e tostalo brevemente. In una ciotola mescola il pecorino grattugiato con poca acqua di cottura calda fino a ottenere una crema densa. Scola la pasta al dente, versala nella padella col pepe, aggiungi la crema di pecorino e mescola vigorosamente aggiungendo acqua di cottura se necessario."
+    },
+    {
+      "id": 3,
+      "title": "Bucatini all'Amatriciana",
+      "ingredients": [
+        "320g di bucatini",
+        "140g di guanciale",
+        "300g di pomodori pelati",
+        "60g di pecorino romano",
+        "Peperoncino q.b.",
+        "Pepe nero q.b."
+      ],
+      "instructions": "Rosola il guanciale a listarelle in padella. Sfuma con un goccio di vino bianco secco e fai evaporare. Aggiungi i pomodori pelati schiacciati e il peperoncino; fai cuocere la salsa per circa 15 minuti. Cuoci i bucatini in abbondante acqua salata, scolali al dente e saltali in padella con la salsa. Servi con abbondante pecorino grattugiato."
+    },
+    {
+      "id": 4,
+      "title": "Pasta alla Gricia",
+      "ingredients": [
+        "320g di rigatoni",
+        "140g di guanciale",
+        "80g di pecorino romano",
+        "Pepe nero q.b."
+      ],
+      "instructions": "Rosola il guanciale a dadini in padella fino a renderlo croccante. Cuoci la pasta in acqua bollente salata. In una ciotola mescola il pecorino con pepe nero e poca acqua di cottura per ottenere una crema. Scola la pasta al dente, versala nella padella col guanciale, aggiungi la crema di pecorino fuori dal fuoco e mescola aggiungendo acqua di cottura se necessario."
+    },
+    {
+      "id": 5,
+      "title": "Pasta e Fagioli",
+      "ingredients": [
+        "200g di pasta corta mista",
+        "300g di fagioli borlotti lessati",
+        "1 spicchio d'aglio",
+        "2 cucchiai di concentrato di pomodoro",
+        "Rosmarino q.b.",
+        "Olio extravergine d'oliva q.b.",
+        "Sale e pepe q.b."
+      ],
+      "instructions": "Soffriggi aglio e rosmarino nell'olio. Aggiungi il concentrato di pomodoro e fai tostare brevemente. Unisci i fagioli e un mestolo di acqua; schiaccia circa un terzo dei fagioli con un cucchiaio per rendere il brodo cremoso. Porta a bollore, aggiungi la pasta e cuocila direttamente nel brodo, aggiungendo acqua calda se necessario. Servi con un filo d'olio a crudo e una macinata di pepe."
+    }
+  ]
 }
