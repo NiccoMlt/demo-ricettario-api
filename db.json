@@ -2,63 +2,99 @@
   "recipes": [
     {
       "id": 1,
-      "title": "Spaghetti alla Carbonara",
-      "ingredients": [
-        "320g di spaghetti",
-        "140g di guanciale",
-        "4 tuorli d'uovo",
-        "40g di pecorino romano",
-        "Pepe nero q.b."
-      ],
-      "instructions": "Rosola il guanciale a dadini in padella senza olio finché diventa croccante. Nel frattempo cuoci la pasta in acqua bollente salata. In una ciotola sbatti i tuorli con il pecorino grattugiato e abbondante pepe nero. Scola la pasta al dente conservando un mestolo di acqua di cottura. Unisci la pasta al guanciale fuori dal fuoco, versa la crema di uova e mescola energicamente aggiungendo acqua di cottura a poco a poco fino a ottenere una salsa cremosa."
+      "nome": "Spaghetti alla Carbonara",
+      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/carbonara.png",
+      "descrizione": "Un classico della cucina romana, amato in tutto il mondo per la sua cremosita' e il sapore deciso.",
+      "ingredienti": {
+        "g di spaghetti": 80,
+        "g di guanciale": 40,
+        "tuorli d'uovo": 1,
+        "g di pecorino romano": 10,
+        "Pepe nero": null
+      },
+      "preparazione": [
+        "Mettere a bollire l'acqua per la pasta.",
+        "Tagliare il guanciale a listarelle e rosolarlo in padella finche' non diventa croccante.",
+        "In una ciotola, sbattere i tuorli con il pecorino e abbondante pepe nero.",
+        "Scolare la pasta al dente, conservando un po' di acqua di cottura.",
+        "Versare la pasta nella padella col guanciale (fuori dal fuoco) e aggiungere la crema di uova.",
+        "Mescolare velocemente aggiungendo acqua di cottura se necessario per creare una crema liscia."
+      ]
     },
     {
       "id": 2,
-      "title": "Spaghetti Cacio e Pepe",
-      "ingredients": [
-        "320g di spaghetti",
-        "120g di pecorino romano",
-        "Pepe nero q.b."
-      ],
-      "instructions": "Cuoci la pasta in acqua poco salata. Macina abbondante pepe nero in padella e tostalo brevemente. In una ciotola mescola il pecorino grattugiato con poca acqua di cottura calda fino a ottenere una crema densa. Scola la pasta al dente, versala nella padella col pepe, aggiungi la crema di pecorino e mescola vigorosamente aggiungendo acqua di cottura se necessario."
+      "nome": "Spaghetti Cacio e pepe",
+      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/cacio-e-pepe.png",
+      "descrizione": "Un piatto semplice ma ricco di sapore, dove il formaggio e il pepe si fondono per creare una salsa irresistibile.",
+      "ingredienti": {
+        "g di spaghetti": 80,
+        "g di pecorino romano": 30,
+        "Pepe nero": null
+      },
+      "preparazione": [
+        "Cuoci la pasta.",
+        "Emulsiona acqua di cottura con il pecorino fino a ottenere una crema.",
+        "Unisci la pasta e abbonda con pepe."
+      ]
     },
     {
       "id": 3,
-      "title": "Bucatini all'Amatriciana",
-      "ingredients": [
-        "320g di bucatini",
-        "140g di guanciale",
-        "300g di pomodori pelati",
-        "60g di pecorino romano",
-        "Peperoncino q.b.",
-        "Pepe nero q.b."
-      ],
-      "instructions": "Rosola il guanciale a listarelle in padella. Sfuma con un goccio di vino bianco secco e fai evaporare. Aggiungi i pomodori pelati schiacciati e il peperoncino; fai cuocere la salsa per circa 15 minuti. Cuoci i bucatini in abbondante acqua salata, scolali al dente e saltali in padella con la salsa. Servi con abbondante pecorino grattugiato."
+      "nome": "Bucatini all'Amatriciana",
+      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/amatriciana.png",
+      "descrizione": "Un piatto iconico della tradizione romana, caratterizzato dal sapore deciso del guanciale e dalla dolcezza del pomodoro.",
+      "ingredienti": {
+        "g di bucatini": 80,
+        "g di guanciale": 35,
+        "g di pomodoro": 75,
+        "g di pecorino": 15,
+        "Pepe nero": null
+      },
+      "preparazione": [
+        "Rosola il guanciale.",
+        "Aggiungi il pomodoro e fai cuocere la salsa.",
+        "Unisci la pasta e spolvera con pecorino prima di servire."
+      ]
     },
     {
       "id": 4,
-      "title": "Pasta alla Gricia",
-      "ingredients": [
-        "320g di rigatoni",
-        "140g di guanciale",
-        "80g di pecorino romano",
-        "Pepe nero q.b."
-      ],
-      "instructions": "Rosola il guanciale a dadini in padella fino a renderlo croccante. Cuoci la pasta in acqua bollente salata. In una ciotola mescola il pecorino con pepe nero e poca acqua di cottura per ottenere una crema. Scola la pasta al dente, versala nella padella col guanciale, aggiungi la crema di pecorino fuori dal fuoco e mescola aggiungendo acqua di cottura se necessario."
+      "nome": "Pasta alla Gricia",
+      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/gricia.jpg",
+      "descrizione": "Considerata l'antenata della Carbonara e dell'Amatriciana: guanciale croccante e pecorino sono i soli protagonisti.",
+      "ingredienti": {
+        "g di rigatoni": 80,
+        "g di guanciale": 40,
+        "g di pecorino romano": 20,
+        "Pepe nero": null
+      },
+      "preparazione": [
+        "Rosola il guanciale a dadini in padella fino a renderlo croccante.",
+        "Cuoci la pasta in acqua bollente salata.",
+        "In una ciotola mescola il pecorino con pepe nero e poca acqua di cottura per ottenere una crema.",
+        "Scola la pasta al dente, versala nella padella col guanciale, aggiungi la crema di pecorino fuori dal fuoco.",
+        "Mescola aggiungendo acqua di cottura se necessario."
+      ]
     },
     {
       "id": 5,
-      "title": "Pasta e Fagioli",
-      "ingredients": [
-        "200g di pasta corta mista",
-        "300g di fagioli borlotti lessati",
-        "1 spicchio d'aglio",
-        "2 cucchiai di concentrato di pomodoro",
-        "Rosmarino q.b.",
-        "Olio extravergine d'oliva q.b.",
-        "Sale e pepe q.b."
-      ],
-      "instructions": "Soffriggi aglio e rosmarino nell'olio. Aggiungi il concentrato di pomodoro e fai tostare brevemente. Unisci i fagioli e un mestolo di acqua; schiaccia circa un terzo dei fagioli con un cucchiaio per rendere il brodo cremoso. Porta a bollore, aggiungi la pasta e cuocila direttamente nel brodo, aggiungendo acqua calda se necessario. Servi con un filo d'olio a crudo e una macinata di pepe."
+      "nome": "Pasta e Fagioli",
+      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/pasta-e-fagioli.jpg",
+      "descrizione": "Un piatto povero ma nutriente, simbolo della cucina italiana di tradizione contadina.",
+      "ingredienti": {
+        "g di pasta corta mista": 80,
+        "g di fagioli borlotti lessati": 150,
+        "spicchi d'aglio": 1,
+        "cucchiai di concentrato di pomodoro": 1,
+        "Rosmarino": null,
+        "Olio extravergine d'oliva": null,
+        "Sale e pepe": null
+      },
+      "preparazione": [
+        "Soffriggi aglio e rosmarino nell'olio.",
+        "Aggiungi il concentrato di pomodoro e fai tostare brevemente.",
+        "Unisci i fagioli e un mestolo di acqua; schiaccia circa un terzo dei fagioli per rendere il brodo cremoso.",
+        "Porta a bollore, aggiungi la pasta e cuocila direttamente nel brodo.",
+        "Servi con un filo d'olio a crudo e una macinata di pepe."
+      ]
     }
   ]
 }
