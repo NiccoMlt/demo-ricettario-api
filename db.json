@@ -4,7 +4,7 @@
       "id": 1,
       "nome": "Spaghetti alla Carbonara",
       "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/carbonara.png",
-      "descrizione": "Un classico della cucina romana, amato in tutto il mondo per la sua cremosita' e il sapore deciso.",
+      "descrizione": "Un classico della cucina romana, amato in tutto il mondo per la sua cremosità e il sapore deciso.",
       "ingredienti": {
         "g di spaghetti": 80,
         "g di guanciale": 40,
@@ -14,7 +14,7 @@
       },
       "preparazione": [
         "Mettere a bollire l'acqua per la pasta.",
-        "Tagliare il guanciale a listarelle e rosolarlo in padella finche' non diventa croccante.",
+        "Tagliare il guanciale a listarelle e rosolarlo in padella finché non diventa croccante.",
         "In una ciotola, sbattere i tuorli con il pecorino e abbondante pepe nero.",
         "Scolare la pasta al dente, conservando un po' di acqua di cottura.",
         "Versare la pasta nella padella col guanciale (fuori dal fuoco) e aggiungere la crema di uova.",
