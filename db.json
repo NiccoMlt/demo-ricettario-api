@@ -2,17 +2,17 @@
   "recipes": [
     {
       "id": 1,
-      "nome": "Spaghetti alla Carbonara",
-      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/carbonara.png",
-      "descrizione": "Un classico della cucina romana, amato in tutto il mondo per la sua cremosità e il sapore deciso.",
-      "ingredienti": {
+      "name": "Spaghetti alla Carbonara",
+      "image": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/carbonara.png",
+      "description": "Un classico della cucina romana, amato in tutto il mondo per la sua cremosità e il sapore deciso.",
+      "ingredients": {
         "g di spaghetti": 80,
         "g di guanciale": 40,
         "tuorli d'uovo": 1,
         "g di pecorino romano": 10,
         "Pepe nero": null
       },
-      "preparazione": [
+      "preparation": [
         "Mettere a bollire l'acqua per la pasta.",
         "Tagliare il guanciale a listarelle e rosolarlo in padella finché non diventa croccante.",
         "In una ciotola, sbattere i tuorli con il pecorino e abbondante pepe nero.",
@@ -23,15 +23,15 @@
     },
     {
       "id": 2,
-      "nome": "Spaghetti Cacio e pepe",
-      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/cacio-e-pepe.png",
-      "descrizione": "Un piatto semplice ma ricco di sapore, dove il formaggio e il pepe si fondono per creare una salsa irresistibile.",
-      "ingredienti": {
+      "name": "Spaghetti Cacio e pepe",
+      "image": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/cacio-e-pepe.png",
+      "description": "Un piatto semplice ma ricco di sapore, dove il formaggio e il pepe si fondono per creare una salsa irresistibile.",
+      "ingredients": {
         "g di spaghetti": 80,
         "g di pecorino romano": 30,
         "Pepe nero": null
       },
-      "preparazione": [
+      "preparation": [
         "Cuoci la pasta.",
         "Emulsiona acqua di cottura con il pecorino fino a ottenere una crema.",
         "Unisci la pasta e abbonda con pepe."
@@ -39,17 +39,17 @@
     },
     {
       "id": 3,
-      "nome": "Bucatini all'Amatriciana",
-      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/amatriciana.png",
-      "descrizione": "Un piatto iconico della tradizione romana, caratterizzato dal sapore deciso del guanciale e dalla dolcezza del pomodoro.",
-      "ingredienti": {
+      "name": "Bucatini all'Amatriciana",
+      "image": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/amatriciana.png",
+      "description": "Un piatto iconico della tradizione romana, caratterizzato dal sapore deciso del guanciale e dalla dolcezza del pomodoro.",
+      "ingredients": {
         "g di bucatini": 80,
         "g di guanciale": 35,
         "g di pomodoro": 75,
         "g di pecorino": 15,
         "Pepe nero": null
       },
-      "preparazione": [
+      "preparation": [
         "Rosola il guanciale.",
         "Aggiungi il pomodoro e fai cuocere la salsa.",
         "Unisci la pasta e spolvera con pecorino prima di servire."
@@ -57,16 +57,16 @@
     },
     {
       "id": 4,
-      "nome": "Pasta alla Gricia",
-      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/gricia.jpg",
-      "descrizione": "Considerata l'antenata della Carbonara e dell'Amatriciana: guanciale croccante e pecorino sono i soli protagonisti.",
-      "ingredienti": {
+      "name": "Pasta alla Gricia",
+      "image": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/gricia.jpg",
+      "description": "Considerata l'antenata della Carbonara e dell'Amatriciana: guanciale croccante e pecorino sono i soli protagonisti.",
+      "ingredients": {
         "g di rigatoni": 80,
         "g di guanciale": 40,
         "g di pecorino romano": 20,
         "Pepe nero": null
       },
-      "preparazione": [
+      "preparation": [
         "Rosola il guanciale a dadini in padella fino a renderlo croccante.",
         "Cuoci la pasta in acqua bollente salata.",
         "In una ciotola mescola il pecorino con pepe nero e poca acqua di cottura per ottenere una crema.",
@@ -76,10 +76,10 @@
     },
     {
       "id": 5,
-      "nome": "Pasta e Fagioli",
-      "immagine": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/pasta-e-fagioli.jpg",
-      "descrizione": "Un piatto povero ma nutriente, simbolo della cucina italiana di tradizione contadina.",
-      "ingredienti": {
+      "name": "Pasta e Fagioli",
+      "image": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/pasta-e-fagioli.jpg",
+      "description": "Un piatto povero ma nutriente, simbolo della cucina italiana di tradizione contadina.",
+      "ingredients": {
         "g di pasta corta mista": 80,
         "g di fagioli borlotti lessati": 150,
         "spicchi d'aglio": 1,
@@ -88,7 +88,7 @@
         "Olio extravergine d'oliva": null,
         "Sale e pepe": null
       },
-      "preparazione": [
+      "preparation": [
         "Soffriggi aglio e rosmarino nell'olio.",
         "Aggiungi il concentrato di pomodoro e fai tostare brevemente.",
         "Unisci i fagioli e un mestolo di acqua; schiaccia circa un terzo dei fagioli per rendere il brodo cremoso.",
@@ -98,3 +98,4 @@
     }
   ]
 }
+

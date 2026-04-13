@@ -23,9 +23,21 @@ Base URL: `https://my-json-server.typicode.com/NiccoMlt/demo-ricettario-api`
 ```json
 {
   "id": 1,
-  "title": "Nome della ricetta",
-  "ingredients": ["320g di pasta", "Pepe nero q.b."],
-  "instructions": "Testo libero con i passi di preparazione."
+  "name": "Spaghetti alla Carbonara",
+  "image": "https://raw.githubusercontent.com/NiccoMlt/demo-ricettario-api/refs/heads/master/carbonara.png",
+  "description": "Un classico della cucina romana, amato in tutto il mondo per la sua cremosità e il sapore deciso.",
+  "ingredients": {
+    "g di spaghetti": 80,
+    "g di guanciale": 40,
+    "tuorli d'uovo": 1,
+    "g di pecorino romano": 10,
+    "Pepe nero": null
+  },
+  "preparation": [
+    "Mettere a bollire l'acqua per la pasta.",
+    "Tagliare il guanciale a listarelle e rosolarlo in padella finché non diventa croccante.",
+    "In una ciotola, sbattere i tuorli con il pecorino e abbondante pepe nero."
+  ]
 }
 ```
 
